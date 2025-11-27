@@ -16,7 +16,14 @@ const Body = () => {
           <h2 style={styles.name}>Vlad Hardetskyy</h2>
           <p style={styles.position}>Developer</p>
         </div>
-      </div>
+          </div>
+          <div style={styles.card}>
+              <img src={"Photos/ViacheslavSavchukPhoto.jpg"} alt="Viacheslav Savchuk" style={styles.photo} />
+              <div style={styles.textContainer}>
+                  <h2 style={styles.name}>Viacheslav Savchuk</h2>
+                  <p style={styles.position}>QA</p>
+              </div>
+          </div>
     </main>
   );
 };
